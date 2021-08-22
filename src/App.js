@@ -1,8 +1,14 @@
-import "./App.css";
+import "./style/main.css";
+import Header from "./components/Header.js";
 import Hero from "./components/Hero.js";
 
 function App() {
-  return <Hero />;
+  return (
+    <div>
+      <Header />
+      <Hero />
+    </div>
+  );
 }
 
 export default App;
